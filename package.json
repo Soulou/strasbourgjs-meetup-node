@@ -32,5 +32,8 @@
     "gulp-stylus": "^2.0.1",
     "jade": "^1.9.2",
     "stylus": "^0.50.0"
+  },
+  "devDependencies": {
+    "gulp-shell": "^0.3.0"
   }
 }

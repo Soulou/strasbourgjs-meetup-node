@@ -9,3 +9,13 @@ gulp.task("stylus", function() {
     .pipe(prefixer())
     .pipe(gulp.dest('public/styles'));
 });
+
+gulp.task("watch", function() {
+  gulp.watch("assets/**/*.styl", ["stylus"]);
+});
+
+gulp.task("supervisor", shell.task([
+  "supervisor --extensions js,jade server.js"
+]));
+
+gulp.task("dev", ["watch", "supervisor"])
