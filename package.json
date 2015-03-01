@@ -1,0 +1,28 @@
+{
+  "name": "node-deploy",
+  "version": "0.0.1",
+  "description": "Strasbourg JS Exemple application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Soulou/node-deploy-talk"
+  },
+  "keywords": [
+    "nodejs",
+    "goodpractice",
+    "12factor"
+  ],
+  "author": "Leo Unbekandt <leo@scalingo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soulou/node-deploy-talk/issues"
+  },
+  "homepage": "https://github.com/Soulou/node-deploy-talk",
+  "dependencies": {
+    "express": "^4.12.0",
+    "jade": "^1.9.2"
+  }
+}
