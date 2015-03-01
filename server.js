@@ -22,3 +22,11 @@ var server = app.listen(process.env.PORT, function () {
   var port = server.address().port
   console.log('App listening at http://%s:%s', host, port)
 })
+
+clean = function() {
+  console.log('Got SIGTERM. Clean everything');
+  server.close();
+};
+
+process.on("SIGINT", clean);
+process.on("SIGTERM", clean);
