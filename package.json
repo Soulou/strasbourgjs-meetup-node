@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Soulou/node-deploy-talk",
   "dependencies": {
+    "dotenv": "^0.5.1",
     "express": "^4.12.0",
     "jade": "^1.9.2"
   }
