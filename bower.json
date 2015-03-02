@@ -1,0 +1,19 @@
+{
+  "name": "strasbourgjs-demo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Soulou/strasbourgjs-meetup-node",
+  "authors": [
+    "Soulou <leo@unbekandt.eu>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
