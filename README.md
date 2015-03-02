@@ -1,8 +1,6 @@
 # Sample for StrasbourgJS Meetup of March 2nd
 
-## Autoreload
+Each branch of this application fits one additional step in the tutorial.
+From project initialization to deployment.
 
-```sh
-npm install -g supervisor
-supervisor server.js
-```
+The presentation associated to the project will be uploaded soon.
